@@ -1,0 +1,31 @@
+Print the following pattern
+Pattern for N = 4
+      *
+     * *
+    * * *
+   * * * *
+Hint
+As taught in the video, you just have to modify the code so that instead of printing numbers, it should output stars ('*').
+The dots represent spaces.
+Input Format :
+N (Total no. of rows)
+Output Format :
+Pattern in N lines
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+  int n;
+  cin>>n;
+  for(int i=1; i<=n; i++){
+      for(int j=1; j<=(n-i); j++){
+          cout<<" ";
+        }
+      for(int j=1; j<=(2*i-1); j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
