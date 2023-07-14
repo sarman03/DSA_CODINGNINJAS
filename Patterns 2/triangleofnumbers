@@ -1,0 +1,43 @@
+Code : Triangle of Numbers
+Send Feedback
+Print the following pattern for the given number of rows.
+Pattern for N = 4
+      1
+     232
+    34543
+   4567654
+The dots represent spaces.
+
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; ++i)
+    {
+        int num = i;
+        for (int j = 1; j <= n - i; ++j)
+        {
+        cout << " ";
+        }
+        for (int k = 1; k <= 2 * i - 1; ++k)
+        {
+            cout << num;
+            num = (k < i) ? num + 1 : num - 1;
+        }
+        cout <<endl;
+    }
+
+    return 0;
+}
