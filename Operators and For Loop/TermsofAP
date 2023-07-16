@@ -1,0 +1,30 @@
+Terms of AP
+
+Write a program to print first x terms of the series 3N + 2 which are not multiples of 4.
+
+Input format :
+Integer x
+Output format :
+Terms of series (separated by space)
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+    int x, count = 0, N = 1;
+    cin >> x;
+
+    while (count < x) {
+        int term = 3*N + 2;
+        if (term % 4 != 0) {
+            cout << term << " ";
+            count++;
+        }
+        N++;
+    }
+
+    return 0;
+}
