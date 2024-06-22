@@ -1,4 +1,4 @@
-Linear Search
+/* Linear Search
 
 You have been given a random integer array/list(ARR) of size N, and an integer X. You need to search for the integer X in the given array/list using 'Linear Search'.
  You have been required to return the index at which X is present in the array/list. If X has multiple occurrences in the array/list, then you need to return the index at which the first occurrence of X would be encountered. In case X is not present in the array/list, then return -1.
@@ -14,14 +14,14 @@ For each test case, print the index at which X is present or -1, otherwise.
 Output for every test case will be printed in a separate line.
 
 
-
+*/
 
 
 
 
 #include <iostream>
 using namespace std;
-#include "solution.h"
+
 
 int linearSearch(int *arr, int n, int val){
     for(int i=0; i<n; i++){
