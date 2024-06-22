@@ -1,4 +1,4 @@
-Sort 0 1
+/* Sort 0 1
 
 You have been given an integer array/list(ARR) of size N that contains only integers, 0 and 1. Write a function to sort this array/list. Think of a solution which scans the array/list only once and don't require use of an extra array/list.
 
@@ -14,7 +14,7 @@ Output format :
 For each test case, print the sorted array/list elements in a row separated by a single space.
 Output for every test case will be printed in a separate line.
 
-
+*/
 
 
 

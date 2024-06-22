@@ -1,4 +1,4 @@
-Array Sum
+/* Array Sum
 
 Given an array of length N, you need to find and print the sum of all elements of the array.
 
@@ -9,7 +9,7 @@ Line 2 : N integers which are elements of the array, separated by spaces
 Output Format :
 Sum
 
-
+*/
 
 
 

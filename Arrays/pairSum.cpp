@@ -1,4 +1,4 @@
-Pair Sum
+/* Pair Sum
 
 You have been given an integer array/list(ARR) and a number X.
 Find and return the total number of pairs in the array/list which sum to X.
@@ -16,7 +16,7 @@ Output format :
 For each test case, print the total number of pairs present in the array/list.
 Output for every test case will be printed in a separate line.
 
-
+*/
 
 
 

@@ -1,4 +1,4 @@
-Triplet Sum
+/* Triplet Sum
 
 You have been given a random integer array/list(ARR) and a number X.
 Find and return the number of triplets in the array/list which sum to X.
@@ -17,12 +17,12 @@ For each test case, print the total number of triplets present in the array/list
 Output for every test case will be printed in a separate line.
 
 
-
+*/
 
 
 #include <iostream>
 using namespace std;
-#include "solution.h"
+
 
 int tripletSum(int *input, int size, int x){
     int numTriplets=0;
