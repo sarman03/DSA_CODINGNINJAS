@@ -1,4 +1,4 @@
-Intersection of Two Arrays II
+/* Intersection of Two Arrays II
 
 You have been given two integer arrays/list(ARR1 and ARR2) of size N and M, respectively. You need to print their intersection; An intersection for this problem can be defined when both the arrays/lists contain a particular value or to put it in other words, when there is a common value that exists in both the arrays/lists.
 
@@ -17,7 +17,7 @@ Output format :
 For each test case, print the intersection elements in a row, separated by a single space.
 Output for every test case will be printed in a separate line.
 
-
+*/
 
 
 
@@ -25,7 +25,6 @@ Output for every test case will be printed in a separate line.
 #include <iostream>
 #include <algorithm>
 using namespace std;
-#include "solution.h"
 #include<climits>
 
 void intersection(int *input1, int *input2, int size1, int size2){

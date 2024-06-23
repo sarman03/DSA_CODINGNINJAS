@@ -22,7 +22,6 @@ using namespace std;
 
 
 int duplicateNumber(int arr[], int n) {
-   i
     int freq[n] = {0};
   for (int i = 0; i < n; i++) {
         freq[arr[i]]++;
